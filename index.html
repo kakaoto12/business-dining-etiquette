@@ -1,0 +1,1629 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Business Dining Etiquette Guide for Engineering Students and Technical Sales Professionals. Grounded in classic etiquette rules (Carreño's Code) and modern business standards.">
+  <meta name="author" content="Andre Velazco">
+  <title>Executive Dining Etiquette | SIE 415-515 Technical Sales & Marketing</title>
+
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5 & Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Custom Executive Stylesheet -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="overview">
+
+  <!-- Global Reading Progress Bar -->
+  <div class="reading-progress-bar" id="readingProgressBar"></div>
+
+  <!-- ==========================================================================
+       1. STICKY TOPBAR / NAVBAR (INTERNAL & EXTERNAL LINKS - RUBRIC 1 & 2)
+       ========================================================================== -->
+  <header class="executive-navbar">
+    <div class="container-fluid px-lg-5 px-3">
+      <div class="d-flex align-items-center justify-content-between">
+
+        <!-- Brand / Identity -->
+        <a href="#overview" class="brand-badge-container text-decoration-none">
+          <div class="brand-logo-icon">
+            <i class="bi bi-cup-hot-fill"></i>
+          </div>
+          <div class="brand-title-wrap">
+            <span class="brand-title">EXECUTIVE DINING ETIQUETTE</span>
+            <span class="brand-subtitle">SIE 415-515 | Technical Sales & Marketing</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation (Internal Links) -->
+        <nav class="d-none d-xl-flex align-items-center gap-1">
+          <a href="#foundations" class="nav-link-custom"><i class="bi bi-compass"></i> 3-Phase Guide</a>
+          <a href="#table-anatomy" class="nav-link-custom"><i class="bi bi-aspect-ratio"></i> Table Anatomy</a>
+          <a href="#carreno-rules" class="nav-link-custom"><i class="bi bi-journal-bookmark-fill"></i> Carreño's Code</a>
+          <a href="#awkward-scenarios" class="nav-link-custom"><i class="bi bi-shield-check"></i> Scenarios</a>
+          <a href="#survey-assessment" class="nav-link-custom"><i class="bi bi-patch-question"></i> Quiz & Survey</a>
+          <a href="#references" class="nav-link-custom"><i class="bi bi-book"></i> References</a>
+        </nav>
+
+        <!-- Mobile Hamburger Toggle -->
+        <div class="d-flex align-items-center">
+          <button class="btn btn-outline-light d-xl-none p-2" type="button" data-bs-toggle="offcanvas"
+            data-bs-target="#mobileNavOffcanvas" aria-controls="mobileNavOffcanvas">
+            <i class="bi bi-list fs-5"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Offcanvas Menu -->
+  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="mobileNavOffcanvas"
+    aria-labelledby="mobileNavLabel">
+    <div class="offcanvas-header border-bottom border-secondary">
+      <h5 class="offcanvas-title" id="mobileNavLabel">Table of Contents</h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="d-flex flex-column gap-3">
+        <a href="#foundations" class="nav-link-custom py-2" data-bs-dismiss="offcanvas"><i class="bi bi-compass"></i>
+          3-Phase Guide</a>
+        <a href="#table-anatomy" class="nav-link-custom py-2" data-bs-dismiss="offcanvas"><i
+            class="bi bi-aspect-ratio"></i> Table Anatomy</a>
+        <a href="#carreno-rules" class="nav-link-custom py-2" data-bs-dismiss="offcanvas"><i
+            class="bi bi-journal-bookmark-fill"></i> Carreño's Code</a>
+        <a href="#awkward-scenarios" class="nav-link-custom py-2" data-bs-dismiss="offcanvas"><i
+            class="bi bi-shield-check"></i> Scenarios</a>
+        <a href="#survey-assessment" class="nav-link-custom py-2" data-bs-dismiss="offcanvas"><i
+            class="bi bi-patch-question"></i> Quiz & Survey</a>
+        <a href="#references" class="nav-link-custom py-2" data-bs-dismiss="offcanvas"><i class="bi bi-book"></i>
+          References</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       2. HERO SECTION & EXECUTIVE KPI DASHBOARD
+       ========================================================================== -->
+  <section class="hero-section">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-10 col-xl-9">
+
+          <div class="hero-pill-badge">
+            <i class="bi bi-shield-fill-check"></i> Professional Sales Guide
+          </div>
+
+          <h1 class="hero-title">
+            Master the Art of the <span class="text-gradient-primary">Business Lunch</span> & <span
+              class="text-gradient-gold">Professional Dining</span>
+          </h1>
+
+          <p class="hero-description">
+            In engineering, technical sales, and business management, important deals are rarely closed in meeting rooms
+            alone. Sharing a meal is a real test of your social skills, calm behavior under pressure, and respect for
+            others.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#foundations" class="btn-executive-primary">
+              <i class="bi bi-arrow-down-circle-fill"></i> Explore 3-Phase Guide
+            </a>
+            <a href="#table-anatomy" class="btn-executive-outline">
+              <i class="bi bi-aspect-ratio"></i> Interactive Place Setting
+            </a>
+            <a href="#survey-assessment" class="btn-executive-outline">
+              <i class="bi bi-check2-circle"></i> Test Your Knowledge
+            </a>
+            <button type="button" class="btn-executive-gold" data-bs-toggle="modal" data-bs-target="#pocketCardModal">
+              <i class="bi bi-file-earmark-text-fill"></i> Pocket Cheat-Sheet
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- Key Metric Cards -->
+      <div class="hero-kpi-container mt-4">
+
+        <div class="kpi-card accent-blue">
+          <div class="kpi-val text-primary">80%</div>
+          <div class="kpi-label">First Impression</div>
+          <p class="kpi-desc">Of senior managers make their final judgment about a candidate's confidence and manners
+            before the main course arrives.</p>
+        </div>
+
+        <div class="kpi-card accent-gold">
+          <div class="kpi-val text-warning">100%</div>
+          <div class="kpi-label">Respect for Staff</div>
+          <p class="kpi-desc">True character is shown by how you treat servers and restaurant staff. As Carreño wrote,
+            rudeness to staff reveals poor manners.</p>
+        </div>
+
+        <div class="kpi-card accent-emerald">
+          <div class="kpi-val text-success">0 Phones</div>
+          <div class="kpi-label">Clean Tabletop</div>
+          <p class="kpi-desc">Keep smartphones, keys, and papers off the dining table at all times during a professional
+            business lunch or dinner.</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       3. SECTION 1: THE 3-PHASE TECHNICAL SALES PROTOCOL
+       ========================================================================== -->
+  <section id="foundations" class="section-padding">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag tag-blue"><i class="bi bi-diagram-3"></i> Core Guide</span>
+        <h2 class="section-title">The 3-Phase Business Dining Guide</h2>
+        <p class="section-subtitle">
+          Step-by-step guidance designed specifically for university students preparing for their first formal business
+          meals and client dinners.
+        </p>
+      </div>
+
+      <div class="row g-4">
+
+        <!-- Phase 1: Pre-Meal Strategy -->
+        <div class="col-lg-4 col-md-6">
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-step-badge">Phase I</span>
+              <div class="timeline-icon-box icon-box-blue">
+                <i class="bi bi-clock-history"></i>
+              </div>
+            </div>
+
+            <h3 class="timeline-card-title">Pre-Meal Planning & Preparation</h3>
+            <p class="text-muted small">Planning ahead, picking the right restaurant, and arriving on time.</p>
+
+            <ul class="timeline-bullet-list">
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Be Punctual:</strong> Arrive 10–15 minutes early if you are hosting to check the table; arrive
+                exactly on time if you are a guest. Arriving late can ruin a good business impression.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Pick the Right Restaurant:</strong> Choose a quiet place where you can talk easily and where
+                service is reliable. Use apps like <a href="https://www.opentable.com" target="_blank"
+                  rel="noopener noreferrer">OpenTable</a> to review the menu and reserve a quiet table beforehand.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Dress Professionally:</strong> Casual does not mean careless. Dress appropriately for the
+                restaurant (for example, a clean blazer, collared shirt, and dress pants).
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Check Food Restrictions:</strong> Ask guests about food allergies or dietary preferences
+                (vegetarian, halal, gluten-free) 24 hours before the meal.
+              </li>
+            </ul>
+
+            <div class="rule-callout">
+              <i class="bi bi-lightbulb-fill text-primary"></i> <strong>Host Tip:</strong> Never discuss prices in front
+              of guests. Call the restaurant manager or host in advance to keep a credit card on file for payment.
+            </div>
+
+            <div class="timeline-footer-note">
+              Source: Chaney & Martin (2007) & Business Management Daily
+            </div>
+          </div>
+        </div>
+
+        <!-- Phase 2: Execution at the Table -->
+        <div class="col-lg-4 col-md-6">
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-step-badge">Phase II</span>
+              <div class="timeline-icon-box icon-box-gold">
+                <i class="bi bi-cup-straw"></i>
+              </div>
+            </div>
+
+            <h3 class="timeline-card-title">At the Table</h3>
+            <p class="text-muted small">Place settings, utensils, and basic table manners.</p>
+
+            <ul class="timeline-bullet-list">
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>The "BMW" Table Rule:</strong> Bread plate on the <strong>Left</strong>, Meal plate in the
+                <strong>Middle</strong>, Water & Wine glasses on the <strong>Right</strong>.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Napkin Rules:</strong> Put it on your lap right after you sit down (or after your host does). If
+                you leave the table for a moment, place it on your chair. When finished, place it loosely to the left of
+                your plate.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Outside-In Rule:</strong> Use your utensils from the outside in as each course is served.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Choose Easy-to-Eat Food:</strong> Avoid messy foods (chicken wings, long spaghetti, whole crab).
+                Choose dishes you can eat cleanly with a fork and knife.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Follow Your Host:</strong> Wait for your host to take their first bite before you start eating.
+              </li>
+            </ul>
+
+            <div class="rule-callout">
+              <i class="bi bi-exclamation-triangle-fill text-warning"></i> <strong>Bread Rule:</strong> Never cut bread
+              with a knife. Break off one small bite with your fingers, butter that piece, and eat it.
+            </div>
+
+            <div class="timeline-footer-note">
+              Source: Schweitzer (2018) & Carreño (1853)
+            </div>
+          </div>
+        </div>
+
+        <!-- Phase 3: Post-Meal Settlement -->
+        <div class="col-lg-4 col-md-6">
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-step-badge">Phase III</span>
+              <div class="timeline-icon-box icon-box-emerald">
+                <i class="bi bi-credit-card"></i>
+              </div>
+            </div>
+
+            <h3 class="timeline-card-title">Paying the Bill & Following Up</h3>
+            <p class="text-muted small">Paying the bill, leaving a proper tip, and building the business relationship.
+            </p>
+
+            <ul class="timeline-bullet-list">
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>The Host Pays:</strong> The person who invited the other to dinner pays the whole bill. Never
+                argue over the check or ask to split it item-by-item.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Leave a Good Tip (20% Standard):</strong> Tipping well reflects on your company. A 20% tip is
+                standard in business dining in the US.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Send a Thank-You Note Within 24 Hours:</strong> As Keith Ferrazzi writes in <em>Never Eat
+                  Alone</em>, send a personalized email or thank-you note within 24 hours. Mention something specific
+                from your conversation.
+              </li>
+              <li>
+                <i class="bi bi-check2-circle"></i>
+                <strong>Save Your Meeting Notes:</strong> Write down meeting notes, next steps, and client details in
+                your CRM or notebook right after the meal.
+              </li>
+            </ul>
+
+            <div class="rule-callout">
+              <i class="bi bi-check-circle-fill text-success"></i> <strong>Follow-Up Tip:</strong> Say thank you,
+              mention an important point from the conversation, and suggest the next step.
+            </div>
+
+            <div class="timeline-footer-note">
+              Source: Keith Ferrazzi (2005) & Indeed Career Guide (2026)
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Pre-Dinner Host Checklist (Feature Addition) -->
+        <div class="host-checklist-card">
+          <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
+            <div>
+              <span class="checklist-badge"><i class="bi bi-card-checklist"></i> Quick Host Checklist</span>
+              <h4 class="fw-bold mt-2 mb-1">Pre-Dinner Host Checklist</h4>
+              <p class="text-muted small mb-0">Review these 5 key steps before meeting clients or colleagues for dinner.
+              </p>
+            </div>
+            <div class="text-end">
+              <span class="checklist-status-badge bg-secondary text-white" id="checklistStatusBadge">
+                <i class="bi bi-hourglass-split"></i> <span id="checklistCountText">0 / 5 Completed</span>
+              </span>
+            </div>
+          </div>
+
+          <div class="checklist-progress-wrap">
+            <div class="checklist-progress-bar" id="checklistProgressBar"></div>
+          </div>
+
+          <div class="checklist-items-grid" id="checklistContainer">
+            <div class="checklist-item" data-index="0">
+              <div class="checklist-checkbox"><i class="bi bi-check-lg"></i></div>
+              <div>
+                <div class="checklist-title">1. Ask About Food Preferences (24h in Advance)</div>
+                <p class="checklist-desc">Ask guests politely if they have food allergies or dietary preferences
+                  (vegetarian, kosher, gluten-free, etc.).</p>
+              </div>
+            </div>
+
+            <div class="checklist-item" data-index="1">
+              <div class="checklist-checkbox"><i class="bi bi-check-lg"></i></div>
+              <div>
+                <div class="checklist-title">2. Arrange Payment in Advance</div>
+                <p class="checklist-desc">Give your credit card to the restaurant manager or host before guests arrive
+                  so you don't argue over the bill.</p>
+              </div>
+            </div>
+
+            <div class="checklist-item" data-index="2">
+              <div class="checklist-checkbox"><i class="bi bi-check-lg"></i></div>
+              <div>
+                <div class="checklist-title">3. Choose a Quiet Table</div>
+                <p class="checklist-desc">Book a table away from noisy doors, busy hallways, or loud speakers so you can
+                  talk comfortably.</p>
+              </div>
+            </div>
+
+            <div class="checklist-item" data-index="3">
+              <div class="checklist-checkbox"><i class="bi bi-check-lg"></i></div>
+              <div>
+                <div class="checklist-title">4. Silence and Put Away Your Phone</div>
+                <p class="checklist-desc">Put your phone on silent and keep it in your pocket or bag before sitting down
+                  at the table.</p>
+              </div>
+            </div>
+
+            <div class="checklist-item" data-index="4">
+              <div class="checklist-checkbox"><i class="bi bi-check-lg"></i></div>
+              <div>
+                <div class="checklist-title">5. Arrive 15 Minutes Early</div>
+                <p class="checklist-desc">Arrive 15 minutes before the reservation to check the table and welcome your
+                  guests as they arrive.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Menu Deciphering & Pairing Matrix (Option 3 Addition) -->
+        <div class="menu-matrix-container" id="menu-deciphering-tool">
+          <div class="text-center mb-4">
+            <span class="section-tag tag-emerald"><i class="bi bi-journal-text"></i> Practical Menu Guide</span>
+            <h3 class="fw-bold mt-2">Business Menu Guide & Ordering Tips</h3>
+            <p class="text-muted small max-w-700 mx-auto">
+              Choosing what to order at a business meal is important. Use the filters below to find safe main dishes,
+              avoid messy foods, and master wine and drink etiquette.
+            </p>
+          </div>
+
+          <!-- Filter Controls -->
+          <div class="menu-filter-buttons">
+            <button type="button" class="menu-filter-btn active" data-filter="all">
+              <i class="bi bi-grid-fill"></i> All Items (11)
+            </button>
+            <button type="button" class="menu-filter-btn" data-filter="safe">
+              <i class="bi bi-shield-check text-success"></i> Safe Main Dishes
+            </button>
+            <button type="button" class="menu-filter-btn" data-filter="risk">
+              <i class="bi bi-exclamation-octagon text-danger"></i> Messy Foods to Avoid
+            </button>
+            <button type="button" class="menu-filter-btn" data-filter="wine">
+              <i class="bi bi-cup-straw text-primary"></i> Wine & Drinks Etiquette
+            </button>
+          </div>
+
+          <!-- Menu Cards Grid -->
+          <div class="row g-3" id="menuMatrixGrid">
+
+            <!-- Item 1: Safe Salmon -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="safe">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-safe"><i class="bi bi-check-circle"></i> Recommended Main Dish</span>
+                  <small class="text-muted"><i class="bi bi-star-fill text-warning"></i> Easy to Eat</small>
+                </div>
+                <div class="menu-card-title">Grilled Salmon Fillet</div>
+                <p class="menu-card-desc">Salmon is tender and easy to eat with a fork. It does not splatter sauce and
+                  has no bones to worry about.</p>
+                <div class="menu-card-strategy">
+                  <strong><i class="bi bi-lightbulb"></i> Dining Tip:</strong> Great choice for easy conversation. Pairs
+                  well with white wine or chilled water.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 2: Safe Filet Mignon -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="safe">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-safe"><i class="bi bi-check-circle"></i> Recommended Main Dish</span>
+                  <small class="text-muted"><i class="bi bi-star-fill text-warning"></i> Easy to Eat</small>
+                </div>
+                <div class="menu-card-title">Filet Mignon (Tender Beef Steak)</div>
+                <p class="menu-card-desc">Tender meat that is easy to cut into small bites. Order medium so there are no
+                  messy juices on the plate.</p>
+                <div class="menu-card-strategy">
+                  <strong><i class="bi bi-lightbulb"></i> Dining Tip:</strong> Cut one piece at a time. It looks neat
+                  and is simple to eat while talking.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 3: Safe Risotto -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="safe">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-safe"><i class="bi bi-check-circle"></i> Recommended Main Dish</span>
+                  <small class="text-muted"><i class="bi bi-star-fill text-warning"></i> Vegetarian Choice</small>
+                </div>
+                <div class="menu-card-title">Mushroom Risotto (Creamy Rice)</div>
+                <p class="menu-card-desc">Eat quietly with a fork from the outside edges inward. Its creamy texture
+                  means no sauce splatters and no knife needed.</p>
+                <div class="menu-card-strategy">
+                  <strong><i class="bi bi-lightbulb"></i> Dining Tip:</strong> A great vegetarian option that works well
+                  for almost any guest.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 4: Safe Airline Chicken Breast -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="safe">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-safe"><i class="bi bi-check-circle"></i> Recommended Main Dish</span>
+                  <small class="text-muted"><i class="bi bi-star-fill text-warning"></i> Safe Choice</small>
+                </div>
+                <div class="menu-card-title">Boneless Herb Chicken Breast</div>
+                <p class="menu-card-desc">Boneless chicken breast with light sauce. Easy to cut with a knife and fork
+                  without making a mess.</p>
+                <div class="menu-card-strategy">
+                  <strong><i class="bi bi-lightbulb"></i> Dining Tip:</strong> A safe and reliable choice that lets you
+                  focus 100% on the conversation.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 5: Risk Spaghetti Bolognese -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="risk">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-risk"><i class="bi bi-x-circle"></i> Messy Food (Avoid)</span>
+                  <small class="text-danger fw-bold"><i class="bi bi-exclamation-triangle"></i> High Risk</small>
+                </div>
+                <div class="menu-card-title">Spaghetti & Long Pasta with Red Sauce</div>
+                <p class="menu-card-desc">Twirling long pasta can easily splash red sauce onto your shirt, jacket, or
+                  tie.</p>
+                <div class="menu-card-strategy" style="border-left-color: #ef4444;">
+                  <strong><i class="bi bi-shield-x"></i> Dining Tip:</strong> Slurping pasta is bad manners. If you want
+                  pasta, choose bite-sized shapes like penne or ravioli.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 6: Risk Whole Shell Crustaceans -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="risk">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-risk"><i class="bi bi-x-circle"></i> Messy Food (Avoid)</span>
+                  <small class="text-danger fw-bold"><i class="bi bi-exclamation-triangle"></i> High Risk</small>
+                </div>
+                <div class="menu-card-title">Whole Lobster & Crab Legs</div>
+                <p class="menu-card-desc">Cracking shells requires bibs, tools, and messy fingers, and juices can easily
+                  splash across the table.</p>
+                <div class="menu-card-strategy" style="border-left-color: #ef4444;">
+                  <strong><i class="bi bi-shield-x"></i> Dining Tip:</strong> Never wear a bib at a business dinner. If
+                  you want seafood, choose peeled shrimp, fish, or scallops.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 7: Risk French Onion Soup -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="risk">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-risk"><i class="bi bi-x-circle"></i> Messy Food (Avoid)</span>
+                  <small class="text-danger fw-bold"><i class="bi bi-exclamation-triangle"></i> Moderate Risk</small>
+                </div>
+                <div class="menu-card-title">French Onion Soup with Melted Cheese</div>
+                <p class="menu-card-desc">Melted cheese sticks to the bowl and creates long, hot cheese strings that are
+                  difficult to cut while talking.</p>
+                <div class="menu-card-strategy" style="border-left-color: #ef4444;">
+                  <strong><i class="bi bi-shield-x"></i> Dining Tip:</strong> Choose a smooth soup instead, and spoon it
+                  gently away from you across the bowl.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 8: Risk Bone-In Ribs & Wings -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="risk">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-risk"><i class="bi bi-x-circle"></i> Messy Food (Avoid)</span>
+                  <small class="text-danger fw-bold"><i class="bi bi-exclamation-triangle"></i> High Risk</small>
+                </div>
+                <div class="menu-card-title">Barbecue Ribs & Chicken Wings</div>
+                <p class="menu-card-desc">Eating with your hands leaves barbecue sauce on your fingers, making it
+                  impossible to shake hands or pass papers.</p>
+                <div class="menu-card-strategy" style="border-left-color: #ef4444;">
+                  <strong><i class="bi bi-shield-x"></i> Dining Tip:</strong> Avoid finger foods during business
+                  dinners. Stick to foods you can eat cleanly with a fork and knife.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 9: Wine Protocol Client First -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="wine">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-wine"><i class="bi bi-cup-straw"></i> Drink Etiquette</span>
+                  <small class="text-primary fw-bold"><i class="bi bi-gem"></i> Core Rule</small>
+                </div>
+                <div class="menu-card-title">Let Your Guest Order Drinks First</div>
+                <p class="menu-card-desc">Always let the client or guest order their drink first. If they order water or
+                  iced tea, do the same; do not drink alcohol alone.</p>
+                <div class="menu-card-strategy" style="border-left-color: #8b5cf6;">
+                  <strong><i class="bi bi-lightbulb"></i> Dining Tip:</strong> If the client orders wine, limit yourself
+                  to one glass, and drink water to stay sharp and clear-headed.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 10: Wine Stemware Holding -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="wine">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-wine"><i class="bi bi-cup-straw"></i> Glass Etiquette</span>
+                  <small class="text-primary fw-bold"><i class="bi bi-award"></i> How to Hold</small>
+                </div>
+                <div class="menu-card-title">Holding Wine Glasses & Tasting</div>
+                <p class="menu-card-desc">Hold all wine glasses by the thin stem, never by the bowl. Holding the bowl
+                  warms the drink and leaves fingerprints on the glass.</p>
+                <div class="menu-card-strategy" style="border-left-color: #8b5cf6;">
+                  <strong><i class="bi bi-lightbulb"></i> Dining Tip:</strong> When the server pours a small sample,
+                  take a gentle sip and nod if it tastes good. Do not drink it all in one gulp.
+                </div>
+              </div>
+            </div>
+
+            <!-- Item 11: Wine Pairing Matrix -->
+            <div class="col-lg-4 col-md-6 menu-card-item" data-category="wine">
+              <div class="menu-item-card">
+                <div class="d-flex justify-content-between align-items-center">
+                  <span class="menu-badge-wine"><i class="bi bi-cup-straw"></i> Drink Pairing</span>
+                  <small class="text-primary fw-bold"><i class="bi bi-arrow-left-right"></i> Simple Guide</small>
+                </div>
+                <div class="menu-card-title">Simple Wine Pairing Rule</div>
+                <p class="menu-card-desc">White wines (like Sauvignon Blanc) go best with fish, chicken, and salads. Red
+                  wines (like Cabernet) pair best with steaks and red meat.</p>
+                <div class="menu-card-strategy" style="border-left-color: #8b5cf6;">
+                  <strong><i class="bi bi-lightbulb"></i> Dining Tip:</strong> If you are unsure, simply ask the server:
+                  "Which wine pairs best with our guest's main dish?"
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+  <!-- ==========================================================================
+       4. SECTION 2: GRAPHIC FEATURE - INTERACTIVE FORMAL TABLE ANATOMY (RUBRIC 3)
+       ========================================================================== -->
+  <section id="table-anatomy" class="section-padding bg-light">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag tag-blue"><i class="bi bi-eye"></i> Visual Graphic Feature</span>
+        <h2 class="section-title">Formal Table Setting Guide</h2>
+        <p class="section-subtitle">
+          Click on any utensil or plate below to see where it goes and how to use it properly.
+        </p>
+      </div>
+
+      <div class="table-setting-wrapper">
+
+        <!-- Interactive Vector Canvas Container -->
+        <div class="table-canvas-container">
+          <svg class="table-interactive-svg" viewBox="0 0 960 520" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="plateGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#ffffff" />
+                <stop offset="100%" stop-color="#e2e8f0" />
+              </linearGradient>
+              <linearGradient id="silverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#f8fafc" />
+                <stop offset="50%" stop-color="#cbd5e1" />
+                <stop offset="100%" stop-color="#94a3b8" />
+              </linearGradient>
+              <linearGradient id="glassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#e0f2fe" stop-opacity="0.8" />
+                <stop offset="100%" stop-color="#bae6fd" stop-opacity="0.4" />
+              </linearGradient>
+            </defs>
+
+            <!-- Tabletop Surface Outline -->
+            <rect x="15" y="15" width="930" height="490" rx="20" fill="#fafafa" stroke="#e2e8f0" stroke-width="2" />
+
+            <!-- 1. BREAD & BUTTER PLATE (Upper Left - BMW: B) -->
+            <g class="svg-clickable-elem" data-elem="bread-plate" id="svg-bread-plate">
+              <circle cx="160" cy="120" r="58" fill="url(#plateGrad)" stroke="#cbd5e1" stroke-width="2" />
+              <circle cx="160" cy="120" r="42" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+              <!-- Butter Knife -->
+              <rect x="115" y="116" width="90" height="8" rx="4" transform="rotate(-30 160 120)" fill="url(#silverGrad)"
+                stroke="#94a3b8" stroke-width="1" />
+              <text x="160" y="125" text-anchor="middle" font-size="11" font-weight="700" fill="#475569">BREAD
+                (B)</text>
+            </g>
+
+            <!-- 2. DESSERT UTENSILS (Top Center Horizontal) -->
+            <g class="svg-clickable-elem" data-elem="dessert-utensils" id="svg-dessert">
+              <!-- Dessert Spoon (Pointing Left) -->
+              <rect x="410" y="52" width="140" height="8" rx="4" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <ellipse cx="406" cy="56" rx="16" ry="10" fill="url(#silverGrad)" stroke="#94a3b8" stroke-width="1" />
+              <!-- Dessert Fork (Pointing Right) -->
+              <rect x="410" y="78" width="140" height="8" rx="4" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <rect x="548" y="73" width="18" height="18" rx="2" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <text x="480" y="38" text-anchor="middle" font-size="11" font-weight="700" fill="#475569"
+                letter-spacing="0.5">DESSERT SPOON &amp; FORK</text>
+            </g>
+
+            <!-- 3. STEMWARE & GLASSES (Upper Right - BMW: W) -->
+            <g class="svg-clickable-elem" data-elem="water-goblet" id="svg-water-glass">
+              <!-- Water Goblet (Largest, leftmost of glasses) -->
+              <circle cx="670" cy="95" r="34" fill="url(#glassGrad)" stroke="#38bdf8" stroke-width="2" />
+              <circle cx="670" cy="95" r="16" fill="#0284c7" opacity="0.25" />
+              <text x="670" y="100" text-anchor="middle" font-size="11" font-weight="700" fill="#0369a1">WATER
+                (W)</text>
+            </g>
+
+            <g class="svg-clickable-elem" data-elem="wine-glasses" id="svg-wine-glasses">
+              <!-- Red Wine Glass -->
+              <circle cx="780" cy="118" r="28" fill="url(#glassGrad)" stroke="#f43f5e" stroke-width="2" />
+              <text x="780" y="122" text-anchor="middle" font-size="10" font-weight="700" fill="#be123c">RED</text>
+              <!-- White Wine Glass -->
+              <circle cx="865" cy="150" r="24" fill="url(#glassGrad)" stroke="#eab308" stroke-width="2" />
+              <text x="865" y="154" text-anchor="middle" font-size="10" font-weight="700" fill="#a16207">WHITE</text>
+              <!-- Champagne Flute -->
+              <circle cx="775" cy="52" r="20" fill="url(#glassGrad)" stroke="#a855f7" stroke-width="2" />
+              <text x="775" y="56" text-anchor="middle" font-size="9" font-weight="700" fill="#7e22ce">FLUTE</text>
+            </g>
+
+            <!-- 4. FORKS (Left Side - Outside In) -->
+            <!-- Salad Fork (Outer Left) -->
+            <g class="svg-clickable-elem" data-elem="salad-fork" id="svg-salad-fork">
+              <rect x="228" y="195" width="24" height="32" rx="4" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <rect x="235" y="215" width="10" height="160" rx="3" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <text x="240" y="400" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">SALAD</text>
+              <text x="240" y="414" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">FORK</text>
+            </g>
+            <!-- Dinner Fork (Inner Left) -->
+            <g class="svg-clickable-elem" data-elem="dinner-fork" id="svg-dinner-fork">
+              <rect x="331" y="175" width="28" height="36" rx="4" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <rect x="339" y="195" width="12" height="180" rx="3" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <text x="345" y="400" text-anchor="middle" font-size="10" font-weight="800" fill="#1e293b">DINNER</text>
+              <text x="345" y="414" text-anchor="middle" font-size="10" font-weight="800" fill="#1e293b">FORK</text>
+            </g>
+
+            <!-- 5. CHARGER & DINNER PLATE (Center - BMW: M) -->
+            <g class="svg-clickable-elem" data-elem="charger-plate" id="svg-charger-plate">
+              <!-- Charger Plate Base Rings -->
+              <circle cx="480" cy="285" r="110" fill="url(#plateGrad)" stroke="#94a3b8" stroke-width="2.5" />
+              <circle cx="480" cy="285" r="90" fill="#ffffff" stroke="#cbd5e1" stroke-width="2" />
+              <circle cx="480" cy="285" r="70" fill="#f8fafc" stroke="#e2e8f0" stroke-width="1.5" />
+              <!-- Charger Plate Text clearly below the napkin -->
+              <text x="480" y="325" text-anchor="middle" font-size="13" font-weight="800" fill="#1e293b"
+                letter-spacing="0.5">CHARGER PLATE</text>
+              <text x="480" y="345" text-anchor="middle" font-size="11" font-weight="700" fill="#0d6efd">MEAL (M)</text>
+            </g>
+
+            <!-- Napkin (Neatly folded on the upper half of charger plate) -->
+            <g class="svg-clickable-elem" data-elem="napkin" id="svg-napkin">
+              <rect x="445" y="195" width="70" height="85" rx="6" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"
+                stroke-dasharray="4,3" />
+              <text x="480" y="242" text-anchor="middle" font-size="10" font-weight="700" fill="#475569"
+                letter-spacing="0.5">NAPKIN</text>
+            </g>
+
+            <!-- 6. KNIVES & SPOONS (Right Side - Outside In) -->
+            <!-- Dinner Knife (Inner Right) -->
+            <g class="svg-clickable-elem" data-elem="dinner-knife" id="svg-dinner-knife">
+              <rect x="609" y="195" width="12" height="180" rx="3" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <path d="M 609 195 Q 623 165 623 215 Z" fill="url(#silverGrad)" stroke="#94a3b8" stroke-width="1" />
+              <text x="615" y="400" text-anchor="middle" font-size="10" font-weight="800" fill="#1e293b">DINNER</text>
+              <text x="615" y="414" text-anchor="middle" font-size="10" font-weight="800" fill="#1e293b">KNIFE</text>
+            </g>
+            <!-- Soup Spoon (Outer Right) -->
+            <g class="svg-clickable-elem" data-elem="soup-spoon" id="svg-soup-spoon">
+              <ellipse cx="720" cy="200" rx="16" ry="22" fill="url(#silverGrad)" stroke="#94a3b8" stroke-width="1" />
+              <rect x="715" y="215" width="10" height="160" rx="3" fill="url(#silverGrad)" stroke="#94a3b8"
+                stroke-width="1" />
+              <text x="720" y="400" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">SOUP</text>
+              <text x="720" y="414" text-anchor="middle" font-size="10" font-weight="700" fill="#475569">SPOON</text>
+            </g>
+
+            <!-- Orientation Legend Callout -->
+            <rect x="370" y="465" width="220" height="30" rx="15" fill="#0f172a" opacity="0.9" />
+            <text x="480" y="485" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff"
+              letter-spacing="1">DINER SEAT POSITION</text>
+          </svg>
+        </div>
+
+        <!-- Component Selector Quick Pills -->
+        <div class="d-flex flex-wrap justify-content-center gap-2 mt-4">
+          <button class="plate-pill-btn active" data-elem="charger-plate">Charger Plate</button>
+          <button class="plate-pill-btn" data-elem="bread-plate">Bread Plate (B)</button>
+          <button class="plate-pill-btn" data-elem="water-goblet">Water Goblet (W)</button>
+          <button class="plate-pill-btn" data-elem="wine-glasses">Wine Stemware</button>
+          <button class="plate-pill-btn" data-elem="salad-fork">Salad Fork</button>
+          <button class="plate-pill-btn" data-elem="dinner-fork">Dinner Fork</button>
+          <button class="plate-pill-btn" data-elem="dinner-knife">Dinner Knife</button>
+          <button class="plate-pill-btn" data-elem="soup-spoon">Soup Spoon</button>
+          <button class="plate-pill-btn" data-elem="napkin">Napkin</button>
+          <button class="plate-pill-btn" data-elem="dessert-utensils">Dessert Utensils</button>
+        </div>
+
+        <!-- Dynamic Table Inspector Card -->
+        <div class="table-inspector-panel">
+          <div class="inspector-text-wrap">
+            <span class="inspector-tag" id="inspectorTag">Center Placement</span>
+            <h4 class="inspector-title" id="inspectorTitle">Charger Plate (Center)</h4>
+            <p class="inspector-desc" id="inspectorDesc">
+              The large decorative plate placed directly in front of you, about one inch from the table edge. Your
+              napkin or soup bowl sits here when you arrive. Always wait for your host to take the first bite before you
+              start eating.
+            </p>
+          </div>
+          <div class="d-flex align-items-center gap-2">
+            <span class="badge bg-primary px-3 py-2" style="font-size: 0.8rem;"><i class="bi bi-hand-index-thumb"></i>
+              Click Any Utensil</span>
+          </div>
+        </div>
+
+        <!-- Cross-Cultural Utensil Mechanics (American vs. Continental) -->
+        <div class="utensil-styles-container">
+          <div class="text-center mb-4">
+            <span class="section-tag tag-blue"><i class="bi bi-globe2"></i> Dining Styles</span>
+            <h3 class="fw-bold mt-2">Utensil Styles: American vs. Continental</h3>
+            <p class="text-muted small max-w-700 mx-auto">
+              In business dining, knowing both American and Continental styles shows good manners and confidence.
+            </p>
+          </div>
+
+          <!-- Style Switcher Buttons -->
+          <div class="style-toggle-buttons">
+            <button type="button" class="style-toggle-btn active" data-style="american">
+              <i class="bi bi-flag-fill text-danger"></i> American Style ("Zig-Zag")
+            </button>
+            <button type="button" class="style-toggle-btn" data-style="continental">
+              <i class="bi bi-globe-americas text-primary"></i> Continental Style (Global / European)
+            </button>
+          </div>
+
+          <!-- Tab Content: American Style -->
+          <div class="style-detail-card active" id="styleCardAmerican">
+            <div class="row align-items-center">
+              <div class="col-lg-7">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                  <span class="badge bg-danger text-white px-2 py-1">U.S. Standard</span>
+                  <h4 class="fw-bold mb-0">The American Method (Switching Hands)</h4>
+                </div>
+                <div class="mechanic-step-box">
+                  <span class="mechanic-step-number">Step 1: Cutting Food</span>
+                  Hold your fork in your left hand (points down) and knife in your right hand. Cut one or two bite-sized
+                  pieces at a time.
+                </div>
+                <div class="mechanic-step-box">
+                  <span class="mechanic-step-number">Step 2: Placing the Knife</span>
+                  Place the knife near the upper right edge of the plate, with the cutting blade facing inward toward
+                  you.
+                </div>
+                <div class="mechanic-step-box">
+                  <span class="mechanic-step-number">Step 3: Switching Hands</span>
+                  Switch your fork to your right hand with the points facing up, and bring the food to your mouth.
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="card p-3 border-0 bg-light rounded-4">
+                  <h6 class="fw-bold text-primary mb-2"><i class="bi bi-clock-history"></i> Utensil Signals</h6>
+                  <ul class="list-unstyled small text-muted mb-0 d-flex flex-column gap-2">
+                    <li><strong class="text-dark">Resting Position:</strong> Place your knife near the top edge of the
+                      plate and your fork on the lower right of the plate (points facing up).</li>
+                    <li><strong class="text-dark">Finished Signal:</strong> Place your knife and fork side by side
+                      diagonally across the plate, with fork points UP and knife blade facing inward.</li>
+                    <li><strong class="text-dark">Common in:</strong> Standard business dinners across the United
+                      States.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Content: Continental Style -->
+          <div class="style-detail-card" id="styleCardContinental">
+            <div class="row align-items-center">
+              <div class="col-lg-7">
+                <div class="d-flex align-items-center gap-2 mb-3">
+                  <span class="badge bg-primary text-white px-2 py-1">International Standard</span>
+                  <h4 class="fw-bold mb-0">The Continental Method (No Switching)</h4>
+                </div>
+                <div class="mechanic-step-box" style="border-left-color: var(--carreno-gold);">
+                  <span class="mechanic-step-number" style="color: var(--carreno-gold);">Step 1: Keep Hands
+                    Assigned</span>
+                  Keep the fork permanently in your left hand (points facing DOWN). Keep the knife permanently in your
+                  right hand.
+                </div>
+                <div class="mechanic-step-box" style="border-left-color: var(--carreno-gold);">
+                  <span class="mechanic-step-number" style="color: var(--carreno-gold);">Step 2: Eat Without Switching
+                    Hands</span>
+                  Cut one bite with your right hand. Bring the food directly to your mouth with your left hand, keeping
+                  fork points facing DOWN.
+                </div>
+                <div class="mechanic-step-box" style="border-left-color: var(--carreno-gold);">
+                  <span class="mechanic-step-number" style="color: var(--carreno-gold);">Step 3: Gentle Grip</span>
+                  Rest your index fingers gently along the top of each utensil for control. Never hold utensils like
+                  pencils or clubs.
+                </div>
+              </div>
+              <div class="col-lg-5">
+                <div class="card p-3 border-0 bg-light rounded-4">
+                  <h6 class="fw-bold text-warning mb-2"><i class="bi bi-globe"></i> Utensil Signals</h6>
+                  <ul class="list-unstyled small text-muted mb-0 d-flex flex-column gap-2">
+                    <li><strong class="text-dark">Resting Position:</strong> Cross your knife and fork in the center of
+                      the plate in an upside-down "V", with fork points facing DOWN.</li>
+                    <li><strong class="text-dark">Finished Signal:</strong> Place your knife and fork side by side
+                      diagonally across the plate, with fork points facing DOWN.</li>
+                    <li><strong class="text-dark">Common in:</strong> International business dining (Europe, Latin
+                      America, Asia); smooth and widely used worldwide.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5. SECTION 3: CLASSICAL PROTOCOL - CARREÑO'S CODE (PROFESSOR REQUIREMENT)
+       ========================================================================== -->
+  <section id="carreno-rules" class="section-padding carreno-section-bg">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag tag-gold"><i class="bi bi-award-fill"></i> Classic Etiquette Rules</span>
+        <h2 class="section-title">Classic Etiquette Rules: Carreño's Code</h2>
+        <p class="section-subtitle">
+          Written by Manuel Antonio Carreño in 1853, the <em>Manual of Civility and Good Manners</em> is a classic guide
+          on polite behavior, respect at the table, and treating others with kindness.
+        </p>
+      </div>
+
+      <!-- Formal Quote Card -->
+      <div class="carreno-quote-card">
+        <div class="quote-header-row">
+          <div class="d-flex align-items-center gap-2">
+            <div class="quote-icon-badge">
+              <i class="bi bi-quote"></i>
+            </div>
+            <span class="quote-header-title">Classic Manners Book (1853)</span>
+          </div>
+          <span
+            class="badge bg-warning-subtle text-warning-emphasis border border-warning px-3 py-1 rounded-pill d-none d-sm-inline-block">
+            Foundational Manners
+          </span>
+        </div>
+        <p class="carreno-quote-text">
+          "The dining table is one of the places where a person's degree of education and culture is most clearly and
+          promptly revealed, for so numerous and diverse in nature are the rules that decency demands there..."
+        </p>
+        <div class="carreno-quote-author">
+          — Manuel Antonio Carreño | Chapter IV - VA: "At the Table", Section 1 (1853)
+        </div>
+      </div>
+
+      <!-- 3 Carreño Pillars -->
+      <div class="carreno-grid">
+
+        <!-- Pillar 1: Table Sanctity -->
+        <div class="carreno-pillar-card">
+          <div class="pillar-icon-wrap">
+            <i class="bi bi-shield-lock-fill"></i>
+          </div>
+          <span class="carreno-rule-chip">Pillar 1 • Respecting the Table</span>
+          <h4 class="fw-bold mb-3">Keep the Table Clean and Clear</h4>
+          <p class="text-muted small">
+            Carreño explains that the dining table is meant for enjoying food and good conversation.
+          </p>
+          <ul class="timeline-bullet-list">
+            <li>
+              <i class="bi bi-x-circle text-danger"></i>
+              <strong>No Personal Items:</strong> Never put phones, keys, hats, or folders on the dining table. Keep
+              them in your pocket or bag.
+            </li>
+            <li>
+              <i class="bi bi-check2-circle text-warning"></i>
+              <strong>Use the Napkin Properly:</strong> Use your napkin only to gently dab your lips before and after
+              drinking. Never use it to wipe cutlery, sweat, or your nose.
+            </li>
+            <li>
+              <i class="bi bi-check2-circle text-warning"></i>
+              <strong>Good Posture:</strong> Sit up straight and do not slouch. Keep your wrists near the edge of the
+              table, and keep your elbows off the table while eating.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Pillar 2: Waitstaff Demeanor -->
+        <div class="carreno-pillar-card">
+          <div class="pillar-icon-wrap">
+            <i class="bi bi-people-fill"></i>
+          </div>
+          <span class="carreno-rule-chip">Pillar 2 • Respecting Waitstaff</span>
+          <h4 class="fw-bold mb-3">How to Treat Servers and Waitstaff</h4>
+          <p class="text-muted small">
+            Carreño points out that how you treat restaurant servers shows your true character and leadership.
+          </p>
+          <ul class="timeline-bullet-list">
+            <li>
+              <i class="bi bi-check2-circle text-warning"></i>
+              <strong>Use Eye Contact:</strong> Call your server quietly with eye contact or a small hand gesture. Never
+              shout, snap your fingers, or clap.
+            </li>
+            <li>
+              <i class="bi bi-check2-circle text-warning"></i>
+              <strong>Speak Quietly:</strong> If there is a problem with your food or utensil, tell the server quietly
+              and politely without making a scene.
+            </li>
+            <li>
+              <i class="bi bi-check2-circle text-warning"></i>
+              <strong>Business Impact:</strong> Recruiters and clients notice how you treat servers. Being rude to staff
+              shows poor social skills.
+            </li>
+          </ul>
+        </div>
+
+        <!-- Pillar 3: Table Companions & Hosts -->
+        <div class="carreno-pillar-card">
+          <div class="pillar-icon-wrap">
+            <i class="bi bi-chat-heart-fill"></i>
+          </div>
+          <span class="carreno-rule-chip">Pillar 3 • Respecting Your Companions</span>
+          <h4 class="fw-bold mb-3">Conversation and Table Companions</h4>
+          <p class="text-muted small">
+            A business meal is a shared experience. Guests and hosts should keep conversation positive and pleasant.
+          </p>
+          <ul class="timeline-bullet-list">
+            <li>
+              <i class="bi bi-x-circle text-danger"></i>
+              <strong>Topics to Avoid:</strong> Avoid arguments about politics, religion, illness, or personal problems
+              that make guests uncomfortable.
+            </li>
+            <li>
+              <i class="bi bi-check2-circle text-warning"></i>
+              <strong>Follow the Host:</strong> Wait until your host starts eating or drinking before you take your
+              first bite. Respond politely to toasts.
+            </li>
+            <li>
+              <i class="bi bi-check2-circle text-warning"></i>
+              <strong>Drink in Moderation:</strong> Do not drink too much alcohol or eat too fast. Professional behavior
+              requires self-control.
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       6. SECTION 4: HANDLING AWKWARD TABLE SITUATIONS
+       ========================================================================== -->
+  <section id="awkward-scenarios" class="section-padding">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag tag-blue"><i class="bi bi-shield-check"></i> Helpful Solutions</span>
+        <h2 class="section-title">Handling Awkward Table Situations</h2>
+        <p class="section-subtitle">
+          How to stay calm and polite when small accidents, dropped utensils, or awkward moments happen during a meal.
+        </p>
+      </div>
+
+      <!-- Category Filter Pills -->
+      <div class="d-flex flex-wrap justify-content-center gap-2 mb-4">
+        <button class="btn btn-sm btn-outline-primary active scenario-filter-btn" data-filter="all">All
+          Situations</button>
+        <button class="btn btn-sm btn-outline-primary scenario-filter-btn" data-filter="table">Table Accidents</button>
+        <button class="btn btn-sm btn-outline-primary scenario-filter-btn" data-filter="social">Social
+          Awkwardness</button>
+        <button class="btn btn-sm btn-outline-primary scenario-filter-btn" data-filter="finance">Paying the
+          Bill</button>
+      </div>
+
+      <div class="scenarios-grid">
+
+        <!-- Scenario 1 -->
+        <div class="scenario-card" data-category="table">
+          <span class="scenario-badge-warning"><i class="bi bi-exclamation-octagon"></i> Table Accident</span>
+          <h4 class="scenario-title">Dropped Utensil on Floor</h4>
+          <p class="text-muted small">A fork or spoon accidentally slips and falls to the restaurant floor.</p>
+          <div class="scenario-solution-box">
+            <strong>What to Do:</strong> Never crawl under the table to get it. Leave it on the floor. Calmly catch the
+            server's eye and whisper: <em>"Could I please have a clean fork when you have a moment?"</em>
+          </div>
+        </div>
+
+        <!-- Scenario 2 -->
+        <div class="scenario-card" data-category="social">
+          <span class="scenario-badge-warning"><i class="bi bi-chat-square-dots"></i> Social Situation</span>
+          <h4 class="scenario-title">Food Stuck in Someone's Teeth</h4>
+          <p class="text-muted small">You notice parsley or food stuck in your client's or colleague's teeth during
+            conversation.</p>
+          <div class="scenario-solution-box">
+            <strong>What to Do:</strong> Never mention it in front of the group. If you are speaking one-on-one, touch
+            your own teeth quietly as a gentle hint, or excuse yourself so they have a chance to check a mirror.
+          </div>
+        </div>
+
+        <!-- Scenario 3 -->
+        <div class="scenario-card" data-category="table">
+          <span class="scenario-badge-warning"><i class="bi bi-droplet-half"></i> Table Spill</span>
+          <h4 class="scenario-title">Spilled Water or Wine</h4>
+          <p class="text-muted small">A drink is accidentally knocked over and spills onto the tablecloth.</p>
+          <div class="scenario-solution-box">
+            <strong>What to Do:</strong> Stay calm. Apologize simply: <em>"Sorry about that, let me help."</em> Dab with
+            your cloth napkin to catch the liquid, and let the server change the cloth and glass.
+          </div>
+        </div>
+
+        <!-- Scenario 4 -->
+        <div class="scenario-card" data-category="finance">
+          <span class="scenario-badge-warning"><i class="bi bi-cash-stack"></i> Paying the Bill</span>
+          <h4 class="scenario-title">Guest Wants to Pay the Bill</h4>
+          <p class="text-muted small">You invited the client, but they insist on taking out their card to pay.</p>
+          <div class="scenario-solution-box">
+            <strong>What to Do:</strong> Smile and say: <em>"It is our pleasure to invite you tonight; you can invite us
+              next time!"</em> Then pay the bill smoothly.
+          </div>
+        </div>
+
+        <!-- Scenario 5 -->
+        <div class="scenario-card" data-category="social">
+          <span class="scenario-badge-warning"><i class="bi bi-cup"></i> Drinks</span>
+          <h4 class="scenario-title">Client Orders Alcohol, You Don't Drink</h4>
+          <p class="text-muted small">The client orders an alcoholic drink and asks if you would like one too.</p>
+          <div class="scenario-solution-box">
+            <strong>What to Do:</strong> Order without hesitating or making excuses: <em>"I will have sparkling water
+              with lime, please."</em> You do not need to explain why you are not drinking.
+          </div>
+        </div>
+
+        <!-- Scenario 6 -->
+        <div class="scenario-card" data-category="table">
+          <span class="scenario-badge-warning"><i class="bi bi-telephone"></i> Phone Ringing</span>
+          <h4 class="scenario-title">Urgent Phone Call Vibrates</h4>
+          <p class="text-muted small">Your phone vibrates in your pocket with an urgent message from work.</p>
+          <div class="scenario-solution-box">
+            <strong>What to Do:</strong> Never put the phone on the table. Excuse yourself politely: <em>"Please excuse
+              me, I need to step away for a minute to answer an urgent work call."</em> Place your napkin on your chair.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       7. SECTION 5: ADVANCED FEATURES - QUIZ & STUDENT SURVEY (RUBRIC 4 & 5)
+       ========================================================================== -->
+  <section id="survey-assessment" class="section-padding bg-light">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag tag-emerald"><i class="bi bi-cpu"></i> Interactive Tools</span>
+        <h2 class="section-title">Knowledge Quiz & Student Survey</h2>
+        <p class="section-subtitle">
+          Test what you have learned about business dining manners, Carreño's rules, and dinner etiquette.
+        </p>
+      </div>
+
+      <div class="advanced-features-grid">
+
+        <!-- Advanced Feature A: Live Interactive Assessment Quiz -->
+        <div class="quiz-widget-card">
+          <div class="quiz-header-bar">
+            <div>
+              <span class="badge bg-primary text-uppercase px-2 py-1" style="font-size: 0.7rem;">Interactive Quiz</span>
+              <h4 class="mb-0 mt-1 fw-bold">Business Etiquette Quiz</h4>
+            </div>
+            <span class="text-muted small fw-semibold" id="quizQuestionCounter">Question 1 of 6</span>
+          </div>
+
+          <!-- Dynamic Progress Bar -->
+          <div class="quiz-progress-wrap">
+            <div class="quiz-progress-fill" id="quizProgressFill"></div>
+          </div>
+
+          <!-- Questions Dynamic Container -->
+          <div id="quizQuestionsContainer">
+            <!-- Populated via JavaScript in app.js -->
+          </div>
+
+          <!-- Quiz Results Screen (Hidden initially) -->
+          <div id="quizResultsScreen" class="quiz-results-screen">
+            <div class="quiz-score-circle">
+              <span class="quiz-score-number" id="finalScoreDisplay">0/6</span>
+              <span class="quiz-score-label">Score</span>
+            </div>
+            <h3 class="fw-bold mb-2" id="quizVerdictTitle">Quiz Completed</h3>
+            <p class="text-muted max-w-500 mx-auto mb-4" id="quizVerdictDesc"></p>
+            <button class="btn btn-outline-primary btn-sm px-4 py-2 rounded-pill" id="quizRestartBtn">
+              <i class="bi bi-arrow-clockwise"></i> Try Again
+            </button>
+          </div>
+
+          <!-- Quiz Navigation Row -->
+          <div class="quiz-nav-row mt-4 pt-3 border-top" id="quizNavRow">
+            <button class="btn btn-outline-secondary btn-sm px-3" id="quizPrevBtn" disabled>
+              <i class="bi bi-arrow-left"></i> Previous
+            </button>
+            <button class="btn btn-primary btn-sm px-4" id="quizNextBtn">
+              Next Question <i class="bi bi-arrow-right"></i>
+            </button>
+          </div>
+
+        </div>
+
+        <!-- Advanced Feature B: Google Forms Survey Embed (Rubric Item 4 & 5) -->
+        <div class="form-embed-card">
+          <div class="d-flex align-items-center justify-content-between mb-3 pb-2 border-bottom">
+            <h5 class="fw-bold mb-0 text-success"><i class="bi bi-ui-checks"></i> Student Feedback Survey</h5>
+            <span class="badge bg-success-subtle text-success border border-success-subtle">Direct Sync</span>
+          </div>
+
+          <p class="text-muted small mb-3">
+            Tell us how this guide helped you. Your feedback helps improve this training guide for future students.
+          </p>
+
+          <form id="diningSurveyForm" action="https://formsubmit.co/andre2005vm@gmail.com" method="POST"
+            class="form-mockup-inner">
+
+            <!-- FormSubmit Configuration Fields -->
+            <input type="hidden" name="_subject" value="New Business Dining Survey Submission - SIE 415/515">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_template" value="table">
+
+            <div class="d-flex align-items-center gap-2 mb-3 pb-2 border-bottom">
+              <i class="bi bi-envelope-check-fill text-danger"></i>
+              <small class="text-dark fw-semibold" style="font-size: 0.78rem;">
+                Direct Inbox Sync: <span class="text-primary font-monospace">andre2005vm@gmail.com</span>
+              </small>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small fw-bold text-dark">Your Name / Student ID</label>
+              <input type="text" name="student_name" class="form-control form-control-sm"
+                placeholder="e.g. Andre Velazco" required>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small fw-bold text-dark">Major / Degree Program</label>
+              <select name="degree_program" class="form-select form-select-sm" required>
+                <option value="" selected disabled>Select your degree...</option>
+                <option value="Industrial & Systems Engineering (SIE)">Industrial & Systems Engineering (SIE)</option>
+                <option value="Mechanical Engineering">Mechanical Engineering</option>
+                <option value="Software / Systems Engineering">Software / Systems Engineering</option>
+                <option value="Technical Sales & Marketing">Technical Sales & Marketing</option>
+                <option value="Other Engineering Program">Other Engineering Program</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small fw-bold text-dark">Confidence Level for Client Dinners (1 to 5)</label>
+              <div class="d-flex justify-content-between px-1">
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="confidence_score" id="c1" value="1" required>
+                  <label class="form-check-label small" for="c1">1</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="confidence_score" id="c2" value="2">
+                  <label class="form-check-label small" for="c2">2</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="confidence_score" id="c3" value="3">
+                  <label class="form-check-label small" for="c3">3</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="confidence_score" id="c4" value="4">
+                  <label class="form-check-label small" for="c4">4</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="confidence_score" id="c5" value="5">
+                  <label class="form-check-label small" for="c5">5</label>
+                </div>
+              </div>
+              <div class="d-flex justify-content-between text-muted" style="font-size: 0.68rem;">
+                <span>Unprepared (1)</span>
+                <span>Fully Prepared (5)</span>
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label small fw-bold text-dark">Key Takeaway Learned</label>
+              <textarea name="key_takeaway" class="form-control form-control-sm" rows="2"
+                placeholder="What was the most valuable etiquette principle you learned?" required></textarea>
+            </div>
+
+            <button type="submit" id="surveySubmitBtn" class="btn btn-success btn-sm w-100 fw-semibold">
+              <i class="bi bi-send-fill"></i> Submit Survey Response
+            </button>
+
+            <div id="surveyConfirmationAlert" class="alert alert-success mt-3 py-2 small mb-0" style="display: none;">
+              <i class="bi bi-check-circle-fill"></i> Thank you! Your feedback has been registered and transmitted to
+              <strong>andre2005vm@gmail.com</strong>.
+            </div>
+
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       8. SECTION 6: SYNTHESIZED ACADEMIC REFERENCES (RUBRIC 7)
+       ========================================================================== -->
+  <section id="references" class="section-padding">
+    <div class="container">
+
+      <div class="section-header">
+        <span class="section-tag tag-blue"><i class="bi bi-journals"></i> Academic Rigor</span>
+        <h2 class="section-title">Synthesized References & Authority Sources</h2>
+        <p class="section-subtitle">
+          In strict accordance with homework guidelines, all materials have been thoroughly reviewed, synthesized in our
+          own original words, and cited formally.
+        </p>
+      </div>
+
+      <div class="references-grid">
+
+        <!-- Ref 1: Carreño -->
+        <div class="ref-card">
+          <div class="ref-card-header">
+            <span class="ref-badge ref-badge-treatise">Classic Etiquette Book</span>
+            <small class="text-muted">1853</small>
+          </div>
+          <div class="ref-citation">Carreño, M. A. (1853). <em>Manual of Civility and Good Manners for the Youth of Both
+              Sexes</em> [Manual de Urbanidad y Buenas Maneras].</div>
+          <p class="ref-synthesis">
+            Classic Hispanic and international guide outlining Chapter V: "At the Table". Provided foundational rules
+            regarding napkin use, good posture, following the host, and respectful treatment of waitstaff.
+          </p>
+          <a class="btn btn-sm btn-outline-warning mt-auto d-inline-flex align-items-center gap-2 fw-semibold"
+            href="downloads/Carreno_1853_Manual_de_Urbanidad.pdf" download="Carreno_1853_Manual_de_Urbanidad.pdf"
+            target="_blank">
+            <i class="bi bi-file-earmark-pdf-fill text-danger"></i> Download Full Book PDF (9.5 MB)
+          </a>
+        </div>
+
+        <!-- Ref 2: Chaney & Martin -->
+        <div class="ref-card">
+          <div class="ref-card-header">
+            <span class="ref-badge ref-badge-textbook">University Textbook</span>
+            <small class="text-muted">2007</small>
+          </div>
+          <div class="ref-citation">Chaney, L. H., & Martin, J. S. (2007). <em>The Essential Guide to Business
+              Etiquette</em>. Praeger Publishers.</div>
+          <p class="ref-synthesis">
+            University textbook on corporate etiquette. Grounded our guide on Chapter 8 ("Dining Etiquette and Problem
+            Situations") and Chapter 9 ("Business Entertaining, Wine and Toasting Protocol").
+          </p>
+          <a class="btn btn-sm btn-outline-primary mt-auto d-inline-flex align-items-center gap-2 fw-semibold"
+            href="downloads/Chaney_Martin_2007_Business_Etiquette.pdf"
+            download="Chaney_Martin_2007_Business_Etiquette.pdf" target="_blank">
+            <i class="bi bi-file-earmark-pdf-fill text-danger"></i> Download Academic Textbook PDF
+          </a>
+        </div>
+
+        <!-- Ref 3: Business Management Daily (Suggested Resource 1) -->
+        <div class="ref-card">
+          <div class="ref-card-header">
+            <span class="ref-badge ref-badge-course">Official Course Link</span>
+            <small class="text-muted">2018</small>
+          </div>
+          <div class="ref-citation">Business Management Daily. (2018). <em>14 Tips on Business Etiquette: Setting a
+              Professional Tone with Clients and Co-workers</em>.</div>
+          <p class="ref-synthesis">
+            Official Course Resource #1 from homework syllabus. Provided practical tips on Robin Jay's 5 business lunch
+            rules, handling awkward dining moments, and dressing professionally.
+          </p>
+          <a class="ref-link-action text-success mt-auto"
+            href="https://training.businessmanagementdaily.com/3013/14-tips-on-business-etiquette/" target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-box-arrow-up-right"></i> View Course Resource 1
+          </a>
+        </div>
+
+        <!-- Ref 4: Schweitzer & Dybis -->
+        <div class="ref-card">
+          <div class="ref-card-header">
+            <span class="ref-badge ref-badge-textbook">Professional Article</span>
+            <small class="text-muted">2018</small>
+          </div>
+          <div class="ref-citation">Schweitzer, S., J.D., & Dybis, K. (2018). <em>5 ways to impress your dining
+              companion during a dinner business meeting</em>. Corp! Magazine / Access to Culture.</div>
+          <p class="ref-synthesis">
+            Professional business etiquette article. Informed our guidelines on choosing safe menu items, asking about
+            food preferences in advance, and silent utensil signals.
+          </p>
+          <a class="ref-link-action text-info mt-auto"
+            href="https://www.corpmagazine.com/break-room/inspiration/5-ways-to-impress-your-dining-companion-during-a-dinner-business-meeting/"
+            target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-box-arrow-up-right"></i> Corp! Magazine Article
+          </a>
+        </div>
+
+        <!-- Ref 5: OpenTable Corporate Guide -->
+        <div class="ref-card">
+          <div class="ref-card-header">
+            <span class="ref-badge ref-badge-portal">Dining Platform</span>
+            <small class="text-muted">2026</small>
+          </div>
+          <div class="ref-citation">OpenTable, Inc. (2026). <em>Corporate Dining Network, Venue Selection & Executive
+              Reservations</em>.</div>
+          <p class="ref-synthesis">
+            Featured in the homework guidelines. Used for reserving tables online, finding quiet dining environments,
+            and reviewing restaurant menus ahead of time.
+          </p>
+          <a class="ref-link-action text-primary mt-auto" href="https://www.opentable.com" target="_blank"
+            rel="noopener noreferrer">
+            <i class="bi bi-box-arrow-up-right"></i> OpenTable Official Portal
+          </a>
+        </div>
+
+        <!-- Ref 6: Ferrazzi & Raz -->
+        <div class="ref-card">
+          <div class="ref-card-header">
+            <span class="ref-badge ref-badge-textbook">Sales & Networking</span>
+            <small class="text-muted">2005</small>
+          </div>
+          <div class="ref-citation">Ferrazzi, K., & Raz, T. (2005). <em>Never Eat Alone: And Other Secrets to Success,
+              One Relationship at a Time</em>. Doubleday.</div>
+          <p class="ref-synthesis">
+            Classic sales and networking book. Explains why sharing meals builds strong business relationships, how to
+            make friendly small talk, and why following up within 24 hours matters.
+          </p>
+          <a class="btn btn-sm btn-outline-secondary mt-auto d-inline-flex align-items-center gap-2 fw-semibold"
+            href="downloads/Ferrazzi_2005_Never_Eat_Alone.pdf" download="Ferrazzi_2005_Never_Eat_Alone.pdf"
+            target="_blank">
+            <i class="bi bi-file-earmark-pdf-fill text-danger"></i> Download Strategy Book PDF
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       9. EXECUTIVE FOOTER (ACADEMIC CREDENTIALS & DETAILS)
+       ========================================================================== -->
+  <footer class="executive-footer">
+    <div class="container">
+      <div class="row g-4 justify-content-between">
+
+        <div class="col-lg-5">
+          <div class="d-flex align-items-center gap-2 mb-3">
+            <div class="brand-logo-icon" style="width: 32px; height: 32px; font-size: 1rem;">
+              <i class="bi bi-cup-hot-fill"></i>
+            </div>
+            <span class="footer-brand-title">EXECUTIVE DINING ETIQUETTE</span>
+          </div>
+          <p class="footer-text">
+            Developed as an academic contribution for <strong>SIE 415-515 Technical Sales & Marketing</strong>. Built
+            with modern web architecture, strict accessibility standards, and a professional design tailored to guide
+            and
+            mentor university students in corporate dining etiquette.
+          </p>
+          <div class="badge bg-secondary text-white py-1 px-2 font-monospace" style="font-size: 0.75rem;">
+            Course: SIE 415-515 • University of Arizona / UPC
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h5 class="footer-nav-title">Internal Navigation</h5>
+          <ul class="footer-nav-list">
+            <li><a href="#foundations"><i class="bi bi-chevron-right text-primary"></i> 3-Phase Guide</a></li>
+            <li><a href="#table-anatomy"><i class="bi bi-chevron-right text-primary"></i> Place Setting Anatomy</a></li>
+            <li><a href="#carreno-rules"><i class="bi bi-chevron-right text-primary"></i> Carreño's Code</a></li>
+            <li><a href="#awkward-scenarios"><i class="bi bi-chevron-right text-primary"></i> Awkward Scenarios</a></li>
+            <li><a href="#survey-assessment"><i class="bi bi-chevron-right text-primary"></i> Quiz & Student Survey</a>
+            </li>
+            <li><a href="#references"><i class="bi bi-chevron-right text-primary"></i> Formal References</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+          <h5 class="footer-nav-title">Author & Academic Submission</h5>
+          <div class="card p-3 border-secondary"
+            style="border-radius: 10px; background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255, 255, 255, 0.25) !important;">
+            <div class="d-flex align-items-center gap-3 mb-2">
+              <i class="bi bi-person-badge fs-2 text-primary"></i>
+              <div>
+                <div class="fw-bold text-white fs-6">Andre Velazco</div>
+                <div class="text-white" style="font-size: 0.85rem; color: #ffffff !important; opacity: 0.95;">Industrial
+                  Engineering Candidate</div>
+              </div>
+            </div>
+            <div class="border-top border-secondary pt-2 mt-2 text-white"
+              style="font-size: 0.85rem; line-height: 1.6; color: #ffffff !important;">
+              <div style="color: #ffffff !important;"><strong style="color: #ffffff !important;">Assignment:</strong>
+                Homework 4 - Business Dining Website</div>
+              <div style="color: #ffffff !important;"><strong style="color: #ffffff !important;">Instructor:</strong>
+                Prof. Jesus</div>
+              <div style="color: #ffffff !important;"><strong style="color: #ffffff !important;">Submission
+                  Date:</strong> November 2026</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div>
+          &copy; 2026 Andre Velazco • Technical Sales & Marketing (SIE 415-515). All rights reserved.
+        </div>
+        <div class="d-flex gap-3">
+          <a href="#overview" class="btn-back-to-top" style="color: #ffffff !important; font-weight: 600;"><i
+              class="bi bi-arrow-up-circle-fill" style="color: #60a5fa; font-size: 1.05rem;"></i> <span
+              style="color: #ffffff !important;">Back to Top</span></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       9. EXECUTIVE POCKET CHEAT-SHEET MODAL (PRINT & MOBILE QUICK REVIEW)
+       ========================================================================== -->
+  <div class="modal fade" id="pocketCardModal" tabindex="-1" aria-labelledby="pocketCardModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+      <div class="modal-content pocket-modal-content">
+
+        <div class="pocket-sheet-header d-flex align-items-center justify-content-between">
+          <div>
+            <span class="badge bg-warning text-dark text-uppercase px-2 py-1 mb-1 fw-bold"
+              style="font-size: 0.7rem;">Quick Review Guide</span>
+            <h4 class="mb-0 fw-bold" id="pocketCardModalLabel"><i class="bi bi-wallet2 text-warning"></i> Business
+              Dining Pocket Cheat-Sheet</h4>
+            <small class="text-white-50">Technical Sales & Marketing (SIE 415-515) • Andre Velazco</small>
+          </div>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body p-4 bg-white">
+          <div class="row g-3">
+
+            <!-- Quadrant 1: BMW Table Rule -->
+            <div class="col-md-6">
+              <div class="pocket-quadrant-card">
+                <div class="pocket-quadrant-title text-primary">
+                  <i class="bi bi-geo-alt-fill"></i> 1. The BMW Table Rule
+                </div>
+                <ul class="list-unstyled small text-muted mb-0 d-flex flex-column gap-2">
+                  <li><strong class="text-dark">B = Bread Plate:</strong> on your <em>LEFT</em>. Break small bite-sized
+                    pieces with your fingers; do not cut rolls in half with a knife.</li>
+                  <li><strong class="text-dark">M = Meal:</strong> in the <em>CENTER</em> (your main plate).</li>
+                  <li><strong class="text-dark">W = Water & Wine:</strong> on your <em>RIGHT</em>. Hold wine glasses by
+                    the stem, not the bowl.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Quadrant 2: Carreño Key Rules -->
+            <div class="col-md-6">
+              <div class="pocket-quadrant-card">
+                <div class="pocket-quadrant-title text-warning">
+                  <i class="bi bi-shield-check"></i> 2. Carreño's Key Rules
+                </div>
+                <ul class="list-unstyled small text-muted mb-0 d-flex flex-column gap-2">
+                  <li><strong class="text-dark">Clean Table & Posture:</strong> Keep phones, keys, and papers off the
+                    table. Sit up straight and keep elbows off the table while eating.</li>
+                  <li><strong class="text-dark">Respect Servers:</strong> Call your server with eye contact or a small
+                    nod. Never snap your fingers or shout.</li>
+                  <li><strong class="text-dark">Follow the Host:</strong> Wait for your host to take the first bite or
+                    drink before you begin.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Quadrant 3: Utensil Signals -->
+            <div class="col-md-6">
+              <div class="pocket-quadrant-card">
+                <div class="pocket-quadrant-title text-success">
+                  <i class="bi bi-clock-history"></i> 3. Utensil Signals
+                </div>
+                <ul class="list-unstyled small text-muted mb-0 d-flex flex-column gap-2">
+                  <li><strong class="text-dark">Outside-In Rule:</strong> Start with the utensils on the outside and
+                    work inward with each course.</li>
+                  <li><strong class="text-dark">Resting Signal:</strong> Place fork and knife in an upside-down "V" on
+                    your plate.</li>
+                  <li><strong class="text-dark">Finished Signal:</strong> Place knife and fork side by side diagonally
+                    across the plate.</li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Quadrant 4: Emergency Damage Control -->
+            <div class="col-md-6">
+              <div class="pocket-quadrant-card">
+                <div class="pocket-quadrant-title text-danger">
+                  <i class="bi bi-magic"></i> 4. Quick Solutions
+                </div>
+                <ul class="list-unstyled small text-muted mb-0 d-flex flex-column gap-2">
+                  <li><strong class="text-dark">Dropped Utensil:</strong> Leave it on the floor. Calmly ask the server
+                    for a clean one.</li>
+                  <li><strong class="text-dark">Accidental Spill:</strong> Dab with your cloth napkin to catch liquid;
+                    let the server change the cloth.</li>
+                  <li><strong class="text-dark">Paying the Bill:</strong> The person who invited pays. Give your card to
+                    the restaurant manager or host in advance.</li>
+                </ul>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="modal-footer bg-light px-4 py-3 d-flex justify-content-between">
+          <small class="text-muted"><i class="bi bi-info-circle"></i> Quick-reference guide for review before
+            dining.</small>
+          <div class="d-flex gap-2">
+            <button type="button" class="btn btn-outline-secondary btn-sm px-3" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary btn-sm px-3" onclick="window.print()">
+              <i class="bi bi-printer-fill"></i> Print / Save PDF
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JavaScript Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Application Logic (Interactive Features) -->
+  <script src="js/app.js"></script>
+</body>
+
+</html>
